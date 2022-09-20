@@ -1,4 +1,4 @@
-# [Név]
+# [Rimóczi Dániel]
 
 ## Hogyan kezdj neki?
 
