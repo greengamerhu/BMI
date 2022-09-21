@@ -11,13 +11,14 @@
     <title>Document</title>
 </head>
 <body>
-        <div id="felso" class="container">
+        <div class="container">
+              <div id="felso" style="width: 100%;">
                 <div class="row">
                 <div class="col-sm-8">
                     <p>Írja be a cm-ben számított  testmagasságát(Cipő nékül mérve): </p>
                 </div>
                 <div class="col-sm-4">
-                    <input id="bevitelcm" type="number" >  cm <br>
+                    <input id="bevitelcm" type="number"> <p style="display: inline;">cm</p> <br>
                 </div>
                 </div>
                 <div class="row">
@@ -26,18 +27,21 @@
                         
                     </div>
                     <div class="col-sm-4">
-                        <input id="bevitelkg" type="number" >  kg <br>
+                        <input id="bevitelkg" type="number" >   <p style="display: inline;">kg</p> <br>
                     </div>
                     </div>
-              
-         
                 <button id="szamitas" >Számítás</button>
-        </div>
+                  </div>
+        
 
-        <div class="container">
-            <div class="row">
-            <div class="col-sm-12">
+        <div class="row" style="margin-top:20px ;"> 
+          <div class="col-sm-12">
         <h4 id="bmiertek">Az ön BMI értéke:   </h4>
+      </div>
+      </div>
+
+        <div class="row">
+          <div class="col-sm-12">
         <table id="tabla">
             <tbody>
               <tr id="elso">
@@ -65,7 +69,7 @@
                 <td>II.FOKÚ ELHIZÁS</td>
                 <td></td>
               </tr>
-                <tr id="hatokdik">
+                <tr id="hatodik">
                     <td>40 vagy több</td>
                     <td>III.FOKÚ ELHIZÁS</td>
                     <td></td>
@@ -74,10 +78,20 @@
           </table>  
         </div>
         </div>
+    <div class="row" style="margin-top:20px ;">
+      <div class="col-sm-12">
+        <h4 id="ideal" >Ideális Testömege: </h4>
+      </div>
+      <div class="col-sm-3 d-flex justify-content-center"> 
+      <p style=" color: #f3953e; font-weight: bold;" id="kivanatos"></p> 
+    </div>
+    <div class="col-sm-3">
+      <p style="display: inline;">Kivánatos szélsőértékek</p>
+    </div>
+        
+      </div>
     </div>
     
-        <h4>Ideális Testömege: </h4>
-
     <script src="main.js"></script>
 </body>
 </html>
