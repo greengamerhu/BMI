@@ -11,17 +11,34 @@
     <title>Document</title>
 </head>
 <body>
-        <div>
-                <p>Írja be a cm-ben számított  testmagasságát(Cipő nékül mérve): </p>
-                <input type="number" >  cm
-                <p>Írja be a kg-ban számított testsúlyát (Cipő nékül mérve): </p>
-                <input type="number" >  kg
-                <button id="szamitas" >Számítá<s></s></button>
+        <div id="felso" class="container">
+                <div class="row">
+                <div class="col-sm-8">
+                    <p>Írja be a cm-ben számított  testmagasságát(Cipő nékül mérve): </p>
+                </div>
+                <div class="col-sm-4">
+                    <input id="bevitelcm" type="number" >  cm <br>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <p>Írja be a kg-ban számított testsúlyát (Cipő nékül mérve): </p>
+                        
+                    </div>
+                    <div class="col-sm-4">
+                        <input id="bevitelkg" type="number" >  kg <br>
+                    </div>
+                    </div>
+              
+         
+                <button id="szamitas" >Számítás</button>
         </div>
 
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-12">
         <h4>Az ön BMI értéke:   </h4>
-    
-        <table >
+        <table>
             <tbody>
               <tr>
                 <td>18,5 vagy kevesebb</td>
@@ -40,7 +57,7 @@
               </tr>
               <tr>
                 <td>30-34,9 </td>
-                <td>I.FOKÚ ELHIZÁS</td>
+                <td>I.FOKÚ ELHIZÁS</td>             
                 <td></td>
               </tr>
               <tr>
@@ -54,7 +71,10 @@
                     <td></td>
                 </tr>
             </tbody>
-          </table>
+          </table>  
+        </div>
+        </div>
+    </div>
     
         <h4>Ideális Testömege: </h4>
 

@@ -1,6 +1,32 @@
 td {
     padding-left: 100px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
 }
-td :first-child {
+
+
+td:first-child {
     font-weight: bold;
+}   
+#felso {
+    background-color: orangered;
+    width: 70%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+#bevitelcm {
+    width: 100px;
+    margin-left: 100px;
+}
+#bevitelkg {
+    width: 100px;
+    margin-left: 100px;
+
+}
+#szamitas {
+    margin-top: 20px;
 }
