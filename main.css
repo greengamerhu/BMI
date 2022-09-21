@@ -1,0 +1,6 @@
+td {
+    padding-left: 100px;
+}
+td :first-child {
+    font-weight: bold;
+}
