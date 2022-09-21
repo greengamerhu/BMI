@@ -10,13 +10,16 @@ td {
 td:first-child {
     font-weight: bold;
 }   
-
+table {
+    margin: auto;
+}
 #felso {
-    background-color: #ff4500;
+    background-color: #f3953e;
     width: 70%;
     padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 30px;
+    margin: auto;
 }
 
 #bevitelcm {
@@ -29,8 +32,17 @@ td:first-child {
 
 }
 #szamitas {
-    margin-top: 20px;
+    margin: 15px;
+    background-color: white;
+    color: #f3953e;
+    border: none;
+    font-weight: bold;
+    
+}
+#felso p {
+    color: white;
 }
 h4 {
-    color:orangered
+    color: #f3953e;
+    font-weight: bold;
 }
