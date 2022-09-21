@@ -10,8 +10,9 @@ td {
 td:first-child {
     font-weight: bold;
 }   
+
 #felso {
-    background-color: orangered;
+    background-color: #ff4500;
     width: 70%;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -29,4 +30,7 @@ td:first-child {
 }
 #szamitas {
     margin-top: 20px;
+}
+h4 {
+    color:orangered
 }
